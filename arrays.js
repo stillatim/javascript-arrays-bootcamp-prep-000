@@ -19,4 +19,8 @@ function destructivelyAddElementToBeginningOfArray(a, b) {
 function addElementToEndOfArray(a, b) {
   return [...a, b]
 }
-l
+
+
+function accessElementInArray(a, b) {
+  console.log (a[b]) 
+}

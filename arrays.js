@@ -12,11 +12,11 @@ function addElementToBeginningOfArray(a, b) {
 }
 
 
-function destrutivelyAddElementToEndOfArray(a, b) {
+function destructivelyAddElementToBeginningOfArray(a, b) {
   return a.push(b)
 }
 
 function addElementToEndOfArray(a, b) {
   return [...a, b]
 }
-
+l

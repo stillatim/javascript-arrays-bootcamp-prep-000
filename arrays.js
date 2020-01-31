@@ -12,7 +12,7 @@ function addElementToBeginningOfArray(a, b) {
 }
 
 
-function destructivelyAddElementToBeginningOfArray(a, b) {
+function destructivelyAddElementToEndOfArray(a, b) {
   return a.push(b)
 }
 
@@ -22,7 +22,7 @@ function addElementToEndOfArray(a, b) {
 
 
 function accessElementInArray(a, b) {
-  console.log (a[b]) 
+  console.log (a[b]); 
 }
 
 
